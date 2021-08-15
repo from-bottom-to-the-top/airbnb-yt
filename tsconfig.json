@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "baseUrl":".",
     "paths":{
-      "@components/*":["src/componets/*"],
+      "@components/*":["src/components/*"],
       "@types/*":["src/types/*"],
       "@contexts/*":["src/contexts/*"],
     }
