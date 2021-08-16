@@ -11,7 +11,7 @@ export default function Banner() {
       />
       <div className="absolute top-1/2 w-full text-center">
         <p className="text-sm sm:text-lg">Not sure where to go.Perfect</p>
-        <button className="font-bold text-purple-500 bg-white shadow-md mt-2 rounded-full py-2 px-4  active:scale-90 hover:shadow-xl transition transition-150">
+        <button className="font-bold text-purple-500 bg-white shadow-md mt-2 rounded-full py-2 px-4  active:scale-90 hover:shadow-xl transform transition transition-150">
           Im flexible
         </button>
       </div>
