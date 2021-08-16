@@ -11,7 +11,7 @@ export default function SmallCard({
   distance,
 }: itemInformationType) {
   return (
-    <div className="flex space-x-2 m-4 rounded-lg border-2 border-transparent cursor-pointer hover:border-gray-100 hover:scale-105 transform transition transition-200 ease-out">
+    <div className="flex space-x-2 m-4 rounded-2xl border-2 border-transparent cursor-pointer hover:border-gray-100 hover:scale-105 transform transition transition-200 ease-out">
       <div className="relative h-16 w-16">
         <Image src={img} layout="fill" className="rounded-lg" alt={location} />
       </div>
