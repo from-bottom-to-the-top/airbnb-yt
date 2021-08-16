@@ -7,9 +7,7 @@ type HomeProps = {
   exploreData: [itemInformationType];
 };
 
-export default function Home({ exploreData }: HomeProps) {
-  console.log(exploreData);
-  
+export default function Home({ exploreData }: HomeProps) {  
   return (
     <div>
       <Header />
