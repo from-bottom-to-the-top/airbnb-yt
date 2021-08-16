@@ -1,6 +1,6 @@
 import Header from "@components/header";
 import Banner from "@components/banner";
-import { GetServerSideProps, GetStaticProps } from "next";
+import {GetStaticProps } from "next";
 import { itemInformationType } from "@components/smallCard";
 import SmallCard from "@components/smallCard";
 type HomeProps = {
@@ -31,7 +31,7 @@ export default function Home({ exploreData }: HomeProps) {
   );
 }
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps = async () => {
   const exploreData = await fetch("https://links.papareact.com/pyp").then(
     (res) => res.json()
   );
