@@ -1,11 +1,12 @@
+import { GetStaticProps } from "next";
 import Header from "@components/header";
 import Banner from "@components/banner";
 import SmallCard from "@components/smallCard";
 import BigCard from "@components/bigCard";
-import { GetStaticProps } from "next";
+import LargeCard from "@components/largeCard";
+import Footer from '@components/footer';
 import { itemInformationType } from "@components/smallCard";
 import { bigCardProps } from "@components/bigCard";
-import LargeCard from "@components/largeCard";
 type HomeProps = {
   exploreData: [itemInformationType];
   cardData: [bigCardProps];
@@ -45,6 +46,7 @@ export default function Home({ exploreData, cardData }: HomeProps) {
           buttonText="Get Inspired"
         />
       </main>
+      <Footer/>
     </div>
   );
 }
